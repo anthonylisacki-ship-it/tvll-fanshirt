@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 // ====== CONFIG ======
-const PRICE_PER_SHIRT = 15;
+const PRICE_PER_SHIRT = 20;
 const VENMO_USERNAME = "dtanque";
 
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "change-me";
@@ -431,12 +431,12 @@ function renderShopPage() {
 </head>
 <body>
   <img src="/tvll.png" alt="TVLL Logo" class="logo" />
-  <h1>Tanque Verde Little League Softball</h1>
+  <h1>Tanque Verde Little League Softball Fan Shirt Order Form</h1>
 
   <div class="imgwrap">
     <img class="shirtimg" src="/shirt.png" alt="Shirt" />
     <div class="muted">
-      $15 per shirt. After you submit, Venmo will open to pay <b>@${VENMO_USERNAME}</b>.
+      $20 per shirt. After you submit, Venmo will open to pay <b>@${VENMO_USERNAME}</b>.
       <br/><b>Please do not close this tab</b> until you complete the Venmo payment.
       <br/><b>Your order is not complete</b> until the Venmo transaction is finished.
     </div>
