@@ -1,0 +1,14 @@
+{
+  "name": "softball-tshirt-venmo",
+  "version": "1.0.0",
+  "description": "Single-item T-shirt order form with inventory holds and Venmo redirect + Gmail emails",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.6.0",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.15"
+  }
+}
