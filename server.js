@@ -36,7 +36,7 @@ const db = new Database("data.db");
 db.pragma("journal_mode = WAL");
 
 // Sizes you want to sell
-const SIZES = ["YS", "YM", "YL", "AS", "AM", "AL", "AXL", "A2XL"];
+const SIZES = ["AM", "AL", "AXL", "A2XL"];
 
 // Tables (multi-size cart)
 db.exec(`
